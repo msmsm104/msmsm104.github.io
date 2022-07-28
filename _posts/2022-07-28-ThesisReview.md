@@ -33,5 +33,5 @@ title: Sequence to Sequence Learning with Neural Networks
 
 
 
-## **Conclusion**
- -=> 해당 논문이 나온 시점, 딥러닝 모델의 경우 입력과 출력의 차원이 동일하게 고정되어있다. 이와같은 특성을 speech recognition, machine translation등 sequential한 문제(입력과 출력의 길이가 다른)를 해결함에 있어 문제점이된다. 이를 해결하기 위해 본 논문에서는 Encoder(LSTM [mutilayer=4])를 통해 고정된 차원의 context vector를 뽑아내고 그 후 Decoder(LSTM [mutilayer=4])를 통해 context vector를 원하는 길이의 output sequence로 뽑아냄. 이러한 과정을 통해 기존에 입력과 출력의 길이가 다른 문제를 (기존의 모델과 비슷한 수준으로) 해결할 수 있고 또한 Encoder와 Decoder에 LSTM을 사용함으로써 입력 sequence의 길이가 긴 경우에도 잘 작동함을 해당 논문에서 보여준다.
+## Conclusion
+ - 해당 논문이 나온 시점, 딥러닝 모델의 경우 입력과 출력의 차원이 동일하게 고정되어있다. 이와같은 특성을 speech recognition, machine translation등 sequential한 문제(입력과 출력의 길이가 다른)를 해결함에 있어 문제점이된다. 이를 해결하기 위해 본 논문에서는 Encoder(LSTM [mutilayer=4])를 통해 고정된 차원의 context vector를 뽑아내고 그 후 Decoder(LSTM [mutilayer=4])를 통해 context vector를 원하는 길이의 output sequence로 뽑아냄. 이러한 과정을 통해 기존에 입력과 출력의 길이가 다른 문제를 (기존의 모델과 비슷한 수준으로) 해결할 수 있고 또한 Encoder와 Decoder에 LSTM을 사용함으로써 입력 sequence의 길이가 긴 경우에도 잘 작동함을 해당 논문에서 보여준다.
