@@ -1,11 +1,8 @@
-# 2022-07-28-ThesisReview.md
-
 ---
 layout: post
 title: Sequence to Sequence Learning with Neural Networks
 ---
 
-# ![face](/images/face.jpeg)
 
 
 Abstract
